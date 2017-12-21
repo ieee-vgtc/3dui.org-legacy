@@ -1,0 +1,21 @@
+# Site settings
+title: IEEE 3dUI
+email: web@3dui.org
+description: > # this means to ignore newlines until "baseurl:"
+  Website for IEEE 3DUI.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vgtc.org" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+exclude: ['.DS_Store']
+source: src
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      contact: "web@3dui.org"
