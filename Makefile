@@ -1,4 +1,4 @@
-PRODUCTION_BUCKET=production.3dui.org
+PRODUCTION_BUCKET=3dui.org
 STAGING_BUCKET=staging.3dui.org
 
 PRODUCTION_BRANCH=production
